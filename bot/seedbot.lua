@@ -232,26 +232,30 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {250049437,238773538,260555848,tonumber(our_id},
+    sudo_users = {250049437,238773538,260555848,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[#TeleMute v4
+    about_text = [[#TeleMute Bot v4
 An advanced administration bot based on TG-CLI written in Lua
 
-Thanks To SeedTeam
+GOOD TELESEED
 
 Admins
 @o_o_o_Mohammad_o_o_o [Founder]
 @MutePuker [Developer]
-@Pro_Dev [Developer]
+@Pro_Dev [Manager]
 
 Our channels
-@MuteTeam [persian And English]
+@MuteTeam [ English | Persian ]
 
-Our website (Coming Soon...)
+Our website 
+Coming Soon...
 ]],
     help_text_realm = [[
 ]],
+    help_text = [[
+]],
 	help_text_super =[[
+
 ]],
   }
   serialize_to_file(config, './data/config.lua')
